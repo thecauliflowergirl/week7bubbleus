@@ -586,7 +586,69 @@ margin-right: 20px;
 	margin-top: 20px;
 	margin-left: 20px;
 
+}
 
+
+.archiveContainer
+{
+	width:300px;
+	height:100px;
+	
+}
+
+.archiveIcon{
+	float:left;
+	
+	padding:5px;
+	width:75px;
+	height:75px;
+	border: 2px solid #4fc1e9;
+	border-radius: 75px;
+}
+
+.archiveTextContainer
+{
+	padding-top: 12px;
+	float:left;
+	padding-left: 15px;
+	width:180px;
+	height:75px;
+	font-family: Calibri;
+}
+
+.archiveText
+{
+
+	font-size: 1em;
+	color:black;
+}
+
+
+.dots
+{
+	text-align: center;
+	margin-top:-3.5px;
+	font-family: Calibri;
+	color:black;
+}
+
+.timestamp
+{
+	font-family: Calibri;
+	color: #4fc1e9;
+	margin-top: 3.5px;
+}
+
+
+
+hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
 
 
