@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script
+	<script src="js/jquery.js"></script>
 
 	<!--jqueries and bubble settings-->
 	<script src="js/jquery-1.11.0.min.js"></script>
@@ -24,25 +26,74 @@
 			</div>
 
 			<div id="archive_content">
+			<!--1st bubble start-->
+				<div class="archiveContainer">
+						<a href="archive_capsule.html" data-rel="dialog"  data-transition="pop" data-ajax="false">
+						<div class="archiveIcon">
+							<img src="images/capsule_archive.png">
+						</div>
+						<div class="archiveTextContainer" >
+							<p class="archiveText">Adam: I've been thinking about you, do you </p>
+							<p class="dots">...</p>
+							<p class="timestamp">Feb.13.2014 @ 1:00pm</p>
+						</div>
+						</a>
+				</div>
+				<br /><hr /><br />
+			<!--1st bubble end -->
 
-
-
-			</div>
-
-			<div id="archive_buttons">
-				<a href="#"><img class="archive_options" src="images/select_all.png"></a>
-				<a href="#"><img class="archive_options" src="images/sort.png"></a>
-				<a href="#"><img class="archive_options" src="images/find.png"></a>
-
-
-
-			</div>
 				
 
 
-		</div>
+				<!--2nd bubble here -->
+				<div class="archiveContainer">
+					<a href="archive_piggy.html" >
+						<div class="archiveIcon">
+							<img src="images/piggywhite_archive.png">
+						</div>
+						<div class="archiveTextContainer" >
+							<p class="archiveText">BlizzCon 2013 Adventure</p>
+							<p class="dots">...</p>
+							<p class="timestamp"> Jan.26.2014 @ 6:30pm</p>
+						</div>
+					</a>
+				</div>
+				<br /><hr /><br />
+			</div>
+				
+				<!-- 2nd bubble end -->
+
+			
+
+			<div id="archive_buttons">
+				<button class="buttonClick"><img src="images/select_all.png"></img></button>
+					
+				    <fieldset data-role="controlgroup" >
+				    	<input type="checkbox" name="messages" id="checkboxMessages">
+				        <label for="messages">Messages</label>
+				        <input type="checkbox" name="piggybank" id="checkboxPiggybank">
+				        <label for="piggybank">Piggy Bank</label>
+				        <input type="checkbox" name="timeCap" id="checkboxTimeCap">
+				        <label for="timeCap">Time Capsule</label>
+				        <input type="checkbox" name="all" id="checkboxAll">
+				        <label for="all">Select All</label>
+				    </fieldset>
+					</div>
+				</div>
+				<a href="#"><img class="archive_options" src="images/sort.png"></a>
+				<a href="#"><img class="archive_options" src="images/find.png"></a>
+				<label for="search-mini">Search Input:</label>
+				<input type="search" name="search-mini" id="search-mini" value="" data-mini="true" />
 
 
+
+			</div>
+
+			
+
+			
+			</div>
+				
 
 		
 		<script src="js/bootstrap.min.js"></script>
